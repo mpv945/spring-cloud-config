@@ -1,0 +1,10 @@
+# 配置svn 创库 需要依赖svnkit包
+spring:
+  profiles: svn
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://localhost/svn/test-project
+          username: admin
+          password: 12345
