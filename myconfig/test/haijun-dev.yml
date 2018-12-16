@@ -1,6 +1,5 @@
 # 配置svn 创库 需要依赖svnkit包
 spring:
-  profiles: svn
   cloud:
     config:
       server:
